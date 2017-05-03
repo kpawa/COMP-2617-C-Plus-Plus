@@ -1,0 +1,22 @@
+Rogers Hospital Supplies Company
+--------------------------------
+
+Social insurance no.   gross pay    net pay    pension   deductions
+--------------------------------------------------------------------
+123456789                 620.00     396.51      16.50        223.49
+123456789                   0.00       0.00       0.00          0.00
+123456789                   0.00       0.00       0.00          0.00
+123456789                   1.00       0.92       0.08          0.08
+123456789                   1.10       1.02       0.08          0.08
+123456789                   0.00       0.00       0.00          0.00
+
+
+
+Summary
+-------
+
+Number of employees processed:                    6
+Total gross pay for all employees:           622.10
+Total net pay for all employees:             398.45
+Total pension withheld for all employees:     16.66
+Total deductions for all employees:          223.65
