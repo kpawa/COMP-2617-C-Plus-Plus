@@ -25,18 +25,18 @@ private:
 	const static Directions STARTING_DIRECTION = Directions::SOUTH; // direction 
 																	// that turtle will be facing at the start
 
-	const static bool STARTING_PEN_POSITION = false; // Pen will be up when 
-													 // program starts
-													 // false means pen up, true means pen down
+	const static bool STARTING_PEN_POSITION = false; // Pen will be up when
+							// program starts
+							// false means pen up, true means pen down
 
 	void displayFloor() const;  // will display floor on the screen
 
 	std::array <std::array <bool, NCOLS>, NROWS> m_Floor;   // floor on which turtle will draw
 
-	Directions direction;              // current direction of turtle
-	bool pen;							// current pen position (false == up)
-	int row;							// current row
-	int column;							// current column
+	Directions direction;			// current direction of turtle
+	bool pen;				// current pen position (false == up)
+	int row;				// current row
+	int column;				// current column
 
 public:
 	const static int ARRAY_SIZE = 250;
