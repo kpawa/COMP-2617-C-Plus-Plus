@@ -32,11 +32,16 @@ private:
 	void displayFloor() const;  // will display floor on the screen
 
 	std::array <std::array <bool, NCOLS>, NROWS> m_Floor;   // floor on which turtle will draw
+	
+	/* ================================================================ */
 
+	// These four variables were added by me, Kully:
 	Directions direction;			// current direction of turtle
 	bool pen;				// current pen position (false == up)
 	int row;				// current row
 	int column;				// current column
+	
+	/* ================================================================ */
 
 public:
 	const static int ARRAY_SIZE = 250;
