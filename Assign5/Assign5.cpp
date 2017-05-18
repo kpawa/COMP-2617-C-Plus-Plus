@@ -18,7 +18,7 @@ bool exists;		// Boolean to record whether the entered number exists in array
 
 int main()
 {
-	int input;			// used for storing user input numbers
+	int input;		// used for storing user input numbers
 	int position = -1;	// points to position in array of last unique number
 
 	// Promt for the input of the 20 integers
