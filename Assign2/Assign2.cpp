@@ -1,8 +1,8 @@
 /************************************************************************
-*	Assignment #2: Assign2.cpp file										*
-*	Roman Numeral to Decimal Conveter									*
-*	by Kully Pawa (A00964517)											*
-*	Feb. 01, 2017														*
+*	Assignment #2: Assign2.cpp file					*
+*	Roman Numeral to Decimal Conveter				*
+*	by Kully Pawa (A00964517)					*
+*	Feb. 01, 2017							*
 **************************************************************************/
 
 #include <iostream> // program uses standard i/o
@@ -40,7 +40,7 @@ int main() {
 				if (previous < 1000)
 				{
 					sum -= 2 * previous; // if larger number precedes then we need to remove it
-				}						// and remove it again from the sum that we added it to.
+				}				// and remove it again from the sum that we added it to.
 				previous = 1000;
 				break;
 			case 'D':
