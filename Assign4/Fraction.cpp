@@ -38,8 +38,8 @@ const Fraction & Fraction::timesEq(const Fraction & op)
 	denominator *= op.denominator;
 
 	simplify();  // will make sure that denominator is positive and
-				 //   will invoke gcd() function to reduce fraction
-				 //   as much as possible
+			//   will invoke gcd() function to reduce fraction
+			//   as much as possible
 
 	return (*this); // returns the object which invoked the method
 }
@@ -78,8 +78,8 @@ const Fraction & Fraction::divideEq(const Fraction & op)
 	denominator *= op.numerator;
 
 	simplify();  // will make sure that denominator is positive and
-				 //   will invoke gcd() function to reduce fraction
-				 //   as much as possible
+			//   will invoke gcd() function to reduce fraction
+			//   as much as possible
 
 	return (*this); // returns the object which invoked the method
 }
