@@ -55,16 +55,16 @@ int main()
 	long socialInsuranceNum;	// social security number of employee
 	int numberOfExemptions;		// stores total number of excemptions for employee
 
-	double payRate = 0.0,		// pay rate for the employee
+	double payRate = 0.0,			// pay rate for the employee
 		hoursWorked = 0.0,		// hours worked for the employee
 		grossPay = 0.0,			// gross pay for the employee
 		netPay = 0.0,			// netpay for the employee
 		pension = 0.0,			// pension for the employee
 		deductions = 0.0,		// deductions for the employee
-		totalGrossPay = 0.0,	// total gross pay of all employees
+		totalGrossPay = 0.0,		// total gross pay of all employees
 		totalNetPay = 0.0,		// total net pay for all all employees
 		totalPension = 0.0,		// total pension pay for all employees
-		totalDeductions = 0.0;	// total deductions for all employees
+		totalDeductions = 0.0;		// total deductions for all employees
 
 	//Define ifstream object and open file
 	ifstream ins;
