@@ -1,5 +1,6 @@
 // Assgnment 1: Employee.cpp file
 // Member-function definitions for Employee class
+// Kully Pawa
 // January 25, 2017
 
 #include <iostream>
