@@ -1,4 +1,4 @@
-// Assignment 3 : file Assign3.cpp
+// Assignment 3 : Assign3.cpp file
 // Author: Kully Pawa
 // Date: Feb. 15, 2017
 
