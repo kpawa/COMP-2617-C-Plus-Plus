@@ -13,7 +13,7 @@ using namespace std;
 
 Complex::Complex(double r, double i): real(r), imaginary(i) {}
 
-//add the two complex numbers
+// Add the two complex numbers
 Complex &Complex::plusEq(const Complex &tuple)
 {
 	real += tuple.real;
@@ -21,7 +21,7 @@ Complex &Complex::plusEq(const Complex &tuple)
 	return *this;
 }
 
-//subtract one complex number from the earlier instance
+// Subtract one complex number from the earlier instance
 Complex &Complex::minusEq(const Complex &tuple)
 {
 	real -= tuple.real;
@@ -49,7 +49,7 @@ void Complex::setComplexNum(const double & i)
 	this->imaginary = imaginary;
 }
 
-//display the results as [( r1 + r2 ), i( i1 + i2 )]
+// Display the results as [( r1 + r2 ), i( i1 + i2 )]
 void Complex::display() const
 {
 	cout << fixed << setprecision(4) << "( " << real << " , " << imaginary << " )";
