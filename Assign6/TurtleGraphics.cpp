@@ -22,7 +22,7 @@ TurtleGraphics::TurtleGraphics() :
 	}
 }
 
-//		NORTH
+//			NORTH
 //			|^|
 // WEST <= commands[position] => EAST
 //			|v|
@@ -33,7 +33,7 @@ TurtleGraphics::TurtleGraphics() :
 void TurtleGraphics::processTurtleMoves(const array< int, ARRAY_SIZE> & commands)
 {
 	int position = 0; // current index of command array
-	int count = 0;
+	int count = 0; // number of steps in particular direction
 
 	while (static_cast<Cmds>(commands[position]) != Cmds::END_OF_DATA && position < ARRAY_SIZE) {
 		//cout << "commands[" << position << "]: " << commands[position] << endl;
