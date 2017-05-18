@@ -1,4 +1,4 @@
-// Assgnment 1: Employee.cpp file
+// Assgnment 1: Employee.cpp
 // Member-function definitions for Employee class
 // Kully Pawa
 // January 25, 2017
