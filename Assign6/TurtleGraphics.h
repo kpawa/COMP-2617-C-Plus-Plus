@@ -48,6 +48,6 @@ public:
 	TurtleGraphics(void); //ctor will init. floor to all "false" values, 
 						  // as well as initialization of other data members
 	void processTurtleMoves(const std::array< int, ARRAY_SIZE> &);  // will process
-																	// the commands contained in array "commands"	
+									// the commands contained in array "commands"	
 };
 
